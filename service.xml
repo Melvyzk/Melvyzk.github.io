@@ -1,9 +1,9 @@
 <service>
-  <interpreteur url="http://www.minipavi.fr/XMLint/?xurl=https://melvyzk.github.io/service.xml" />
+  <interpreteur url="https://spectacular-tartufo-3469b3.netlify.app/service.xml" />
   <debut nom="Accueil" />
   <page nom="Accueil">
     <ecran>
-      <affiche url="https://melvyzk.github.io/titl.vdt" />
+      <affiche url="https://spectacular-tartufo-3469b3.netlify.app/titl.vdt" />
     </ecran>
     <entree>
       <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
@@ -15,7 +15,7 @@
   </page>
   <page nom="BOYKISSER">
     <ecran>
-      <affiche url="https://melvyzk.github.io/BOYK.vdt" />
+      <affiche url="https://spectacular-tartufo-3469b3.netlify.app/boyk/vdt" />
     </ecran>
     <entree>
       <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
