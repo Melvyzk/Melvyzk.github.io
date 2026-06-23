@@ -1,9 +1,9 @@
 <service>
-  <interpreteur url="http://www.minipavi.fr/XMLint/?xurl=https://minitel.free.nf/minitel/service.xml" />
+  <interpreteur url="http://www.minipavi.fr/XMLint/?xurl=https://melvyzk.github.io/service.xml" />
   <debut nom="Accueil" />
   <page nom="Accueil">
     <ecran>
-      <affiche url="http://minitel.free.nf/minitel/titl.vdt" />
+      <affiche url="https://melvyzk.github.io/titl.vdt" />
     </ecran>
     <entree>
       <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
@@ -15,7 +15,7 @@
   </page>
   <page nom="BOYKISSER">
     <ecran>
-      <affiche url="http://minitel.free.nf/minitel/BOYK.vdt" />
+      <affiche url="https://melvyzk.github.io/BOYK.vdt" />
     </ecran>
     <entree>
       <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
