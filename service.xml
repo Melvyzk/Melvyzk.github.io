@@ -1,0 +1,28 @@
+<service>
+  <interpreteur url="http://www.minipavi.fr/XMLint/?xurl=https://minitel.free.nf/minitel/service.xml" />
+  <debut nom="Accueil" />
+  <page nom="Accueil">
+    <ecran>
+      <affiche url="http://minitel.free.nf/minitel/titl.vdt" />
+    </ecran>
+    <entree>
+      <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
+      <validation touche="SUITE" />
+    </entree>
+    <action defaut="Choix incorrect !">
+      <saisie touche="SUITE" suivant="BOYKISSER" />
+    </action>
+  </page>
+  <page nom="BOYKISSER">
+    <ecran>
+      <affiche url="http://minitel.free.nf/minitel/BOYK.vdt" />
+    </ecran>
+    <entree>
+      <zonesaisie ligne="1" col="1" longueur="1" curseur="invisible" />
+      <validation touche="SOMMAIRE" />
+    </entree>
+    <action defaut="Choix incorrect !">
+      <saisie touche="SOMMAIRE" suivant="Accueil" />
+    </action>
+  </page>
+</service>
